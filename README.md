@@ -2,7 +2,7 @@
 ![Java CI with Gradle](https://github.com/williamfiset/Algorithms/workflows/Java%20CI%20with%20Gradle/badge.svg)
 ![README Checker](https://github.com/williamfiset/Algorithms/workflows/README%20URL%20Checker/badge.svg)
 
-# Algorithms & data structures project
+# Algorithms & Data Strucutres
 
 Algorithms and data structures are fundamental to efficient code and good software design. Creating and designing excellent algorithms is required for being an exemplary programmer. This repository's goal is to demonstrate how to correctly implement common data structures and algorithms in the simplest and most elegant ways.
 
@@ -14,45 +14,16 @@ This repository is contribution friendly :smiley:. If you'd like to add or impro
 
 This repository provides algorithm implementations in Java, however there are other forks that provide implementations in other languages, most notably:
 
-* **C++/Python**: https://github.com/akzare/Algorithms
+* **Java**: https://github.com/williamfiset/Algorithms
 * **Rust**: https://github.com/TianyiShi2001/Algorithms
 
 # Running an algorithm implementation
 
 To compile and run any of the algorithms here, you need at least JDK version 8. Gradle can make things more convenient for you, but it is not required.
 
-## Running with Gradle (recommended)
+## Running
 
-This project supports the [Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html). The Gradle wrapper automatically downloads Gradle at the first time it runs, so expect a delay when running the first command below.
-
-If you are on Windows, use `gradlew.bat` instead of `./gradlew` below.
-
-Run a single algorithm like this:
-
-```
-./gradlew run -Palgorithm=<algorithm-subpackage>.<algorithm-class>
-```
-
-Alternatively, you can run a single algorithm specifying the full class name
-
-```
-./gradlew run -Pmain=<algorithm-fully-qualified-class-name>
-
-```
-
-For instance:
-
-```
-./gradlew run -Palgorithm=search.BinarySearch
-```
-
-or
-
-```
-./gradlew run -Pmain=com.williamfiset.algorithms.search.BinarySearch
-```
-
-## Compiling and running with only a JDK
+## Compiling and running
 
 ### Create a classes folder
 
